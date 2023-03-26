@@ -1,0 +1,24 @@
+Build program:
+
+mvn clean install
+-----------------------------------------------
+
+Run program:
+
+java -jar JK-1.0-SNAPSHOT.jar -initfilename ../initLoad.txt -pricefilename ../priceList.txt
+-----------------------------------------------
+Program Input format;
+
+weigh[space]postalCode
+
+weight: positive number, maximal 10 integer digits, maximal 3 decimal places, dot as decimal separator
+postalCode: fixed 5 digits without spaces
+
+----------------------------------------------------
+Price List file format;
+
+weigh[space]price
+
+weight: positive number, maximal 10 integer digits, maximal 3 decimal places, dot as decimal separator
+price: positive number, maximal 7 integer digits, maximal 2 decimal places, dot as decimal separator
+
