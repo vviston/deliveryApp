@@ -2,7 +2,6 @@ package com.jk.delivery.bo;
 
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.Digits;
-import javax.validation.constraints.Pattern;
 import java.math.BigDecimal;
 import java.util.Objects;
 
